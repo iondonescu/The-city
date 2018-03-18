@@ -1,0 +1,182 @@
+html,body,main{
+  margin:0;
+  padding: 0;
+}
+.container{
+  display:flex;
+  flex-wrap:wrap;
+}
+/*
+ *
+ *header
+ *
+ */
+#header{
+ background-color: #c9f2f2;
+ box-shadow: 0px 3px #888888;
+ margin-bottom: 10px;
+ height:60px;
+ margin-right:0;
+ }
+.header_inner {
+ width: 100%;
+
+}
+.logo {
+ height: 40px;
+ padding-left:10px;
+ padding-top: 10px;
+ }
+.student_course {
+ float:right;
+ padding-top: 0px;
+ padding-right: 5px;
+ color:#2d3c49;
+}
+.student_name{
+  font-size: 32px;
+  font-weight:100;
+  text-transform: uppercase;
+  margin:0;
+  padding-top:6px;
+}
+.course{
+  font-size: 16px;
+  font-weight:100;
+  text-transform:uppercase;
+  float:right;
+  margin:0;
+}
+
+/*
+ *
+ *Section present_time
+ *
+ */
+ .strong{
+   font-size: 24px;
+   display:block;
+   text-align: center;
+ }
+ .title{
+font-size: 18px;
+text-align: center;
+
+ }
+ .description{
+   font-style:italic;
+   text-indent: 40px;
+   padding-left: 10px;
+   padding-right: 10px;
+   max-width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .braila_logo,.traian_square_image,.combine,.handball_image{
+   width:400px;
+   height:300px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-left: 10px;
+   margin-right: 10px;
+   display:flex;
+   flex-wrap: wrap;
+ }
+.first{
+  background-color:#FFFAF0;
+  width:100%;
+}
+  /*
+   *
+   *Section personalities
+   *
+   */
+  .polaroid {
+  width: 380px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.personalities_image{
+  height:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+.container_quote {
+  text-align: center;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+.container_quote blockquote{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+ /*
+  *footer
+  */
+ .footer {
+   position:relative;
+   bottom:0;
+   width:100%;
+   min-height:10px;  /* Height of the footer */
+   background-color:#c9f2f2;
+   display:flex;
+   flex-wrap:wrap;
+ }
+ .list{
+   width:90%;
+   list-style-type:none;
+   display:flex;
+   padding-left: 1em;
+   padding-right: 1em;
+   margin:0;
+ }
+ .left{
+   width:33.3333%;
+   text-align:center;
+   margin:auto;
+ }
+ .middle{
+ width:33.3333%;
+ padding-left: 1em;
+ padding-right: 1em;
+ text-align: center;
+  margin:auto;
+ }
+ .right{
+   width:33.3333%;
+   text-align: center;
+   word-wrap: break-word;
+  margin:auto;
+ }
+ .boldWord{
+   font-weight: bold;
+ }
+ .fa {
+  padding: 10px;
+  font-size: 30px;
+  width:10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
